@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>foselect</title>
+   <script>
+     function print_form(){
+       var x = document.getElementsByName("sname").element[0];
+       var y = document.getElementsByName("father").element[1];
+       var z = document.getElementsByName("age").element[2];
+       document.getElementById("print").innerHTML += x;
+       document.getElementById("print").innerHTML += y;
+       document.getElementById("print").innerHTML += z;
+     }
+   </script>
+ </head>
+ <body>
+   <div>form</div>
+   <form action="#" method="post">
+     <p>PLAYER NAME* <input TYPE="text" name="sname"  value="Name" required></p>
+     <p>FATHER NAME* <input type="text" name="father"  value="Father" required></p>
+     <p>AGE*<input type="number" name="age" value="age" ></p>
+     <button type="button" onclick="print_form()">SUBMIT</button>
+   </form>
+   <div id="print"> </div>
+ </body>
+</html>

@@ -1,0 +1,25 @@
+.div{
+  max-height: 500px;
+}
+img{
+  height: 200px;
+  opacity: 0.50;
+
+}
+img:hover{
+  height: 300px;
+  width: 600px;
+  opacity: 0.70;
+  font-size: 25px;
+}
+.new{
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.div:hover{
+  font-size: 80px;
+  color: lawngreen;
+}
+.siz{
+  max-height: 100px;
+}
